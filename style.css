@@ -1,0 +1,11 @@
+ div{
+     width: 20rem;
+     height: 20rem;
+     background-color: blue;
+     transition: all 1s ease-in;
+ }
+ div:hover{
+     transform: translate(5rem,6rem) rotate(-360deg) skewX(30deg);
+     border-radius: 50%;
+     background-color: red;
+ }
